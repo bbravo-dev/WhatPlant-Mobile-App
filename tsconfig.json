@@ -1,0 +1,7 @@
+{
+  "extends": "./expo.tsconfig.json",
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "strict": true
+  }
+}
