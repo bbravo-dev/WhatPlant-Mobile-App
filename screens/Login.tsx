@@ -103,7 +103,7 @@ export default function LoginScreen() {
     }
   };
 
-  // ✅ EL RETURN DEL COMPONENTE (MUY IMPORTANTE)
+  
   return (
     <ImageBackground source={require('../assets/fondo.png')} style={styles.background}>
       <StatusBar translucent backgroundColor="transparent" style="light" />
@@ -163,7 +163,7 @@ export default function LoginScreen() {
   );
 }
 
-/* ✅ STYLES FUERA DEL COMPONENTE */
+
 const styles = StyleSheet.create({
   background: {
     flex: 1,
@@ -175,8 +175,8 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   scrollContent: {
-    paddingTop: 80,        // 🔥 esto lo baja “casi al inicio”
-    paddingBottom: 40,     // 🔥 evita corte con teclado
+    paddingTop: 80,        
+    paddingBottom: 40,     
     alignItems: 'center',
   },
   contentContainer: {
